@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget>
+  <ThumbIcon itemtype="string">icons/ico_106.png</ThumbIcon>
+  <BigThumbIcon itemtype="string">icons/ico_115.png</BigThumbIcon>
+  <ListIcon itemtype="string">icons/ico_86.png</ListIcon>
+  <BigListIcon itemtype="string">icons/ico_95.png</BigListIcon>
+  <category itemtype="string">video</category>
+  <autoUpdate itemtype="boolean">n</autoUpdate>
+  <cpname itemtype="string"/>
+  <cplogo itemtype="string"/>
+  <cpauthjs itemtype="string"/>
+  <ver itemtype="string">3.0</ver>
+  <mgrver itemtype="string"/>
+  <fullwidget itemtype="boolean">y</fullwidget>
+  <srcctl itemtype="boolean">y</srcctl>
+  <ticker itemtype="boolean">n</ticker>
+  <childlock itemtype="boolean">n</childlock>
+  <audiomute itemtype="boolean">y</audiomute>
+  <videomute itemtype="boolean">y</videomute>
+  <dcont itemtype="boolean">y</dcont>
+  <widgetname itemtype="string">XSMART</widgetname>
+  <description itemtype="string">all in one</description>
+  <width itemtype="number">960</width>
+  <height itemtype="number">540</height>
+  <mouse itemtype="string">y</mouse>
+  <author itemtype="group">
+    <name itemtype="string">JasonX, Lestat, Drondi4.</name>
+    <email itemtype="string">support@xsmart.tv</email>
+    <link itemtype="string">http://xsmart.tv/</link>
+    <organization itemtype="string">XSMART GROUP</organization>
+  </author>
+  <ThumbIconHD>icons/ico_158.png</ThumbIconHD>
+  <BigThumbIconHD>icons/ico_173.png</BigThumbIconHD>
+  <ListIconHD>icons/ico_128.png</ListIconHD>
+  <BigListIconHD>icons/ico_143.png</BigListIconHD>  
+</widget>

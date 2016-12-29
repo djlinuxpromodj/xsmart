@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+    <title>XSMART</title>
+	    <meta 		http-equiv="Content-Type" 	content="text/html; charset=utf-8"					/>
+		<meta 		name="referrer" 			content="never"										/>
+		<meta 		name="description" 			content="all in one" 								/>
+		<meta 		name="author" 				content="XSMART GROUP © JasonX, Lestat, Dronbi4." 	/>
+		
+        <script		type="text/javascript"		language="javascript"	src="$MANAGER_WIDGET/Common/API/Widget.js"			></script>
+        <script		type="text/javascript"		language="javascript"	src="$MANAGER_WIDGET/Common/API/TVKeyValue.js"		></script>
+        <script		type="text/javascript"		language="javascript"	src="$MANAGER_WIDGET/Common/API/Plugin.js"			></script>
+		<script		type="text/javascript"		language="javascript"	src="$MANAGER_WIDGET/Common/OpenSrc/json2.js"		></script>
+		<script		type="text/javascript"		language="javascript"	src="app/javascript/Main.js"						></script>
+		
+		<object		id="pluginTV" 				border="0"		classid="clsid:SAMSUNG-INFOLINK-TV" 			style="opacity:0;width:0;height:0;" ></object>
+		<object		id="pluginSEF" 				border="0"		classid="clsid:SAMSUNG-INFOLINK-SEF" 			style="opacity:0;width:0;height:0;" ></object>
+		<object		id="pluginPLAYER" 			border="0"		classid="clsid:SAMSUNG-INFOLINK-PLAYER" 		style="opacity:0;width:0;height:0;" ></object>
+		<object		id="pluginWINDOW" 			border="0"		classid="clsid:SAMSUNG-INFOLINK-WINDOW" 		style="opacity:0;width:0;height:0;" ></object>
+		<object		id="pluginAUDIO" 			border="0"		classid="clsid:SAMSUNG-INFOLINK-AUDIO" 			style="opacity:0;width:0;height:0;" ></object>
+		<object		id="pluginNNAVI" 			border="0"		classid="clsid:SAMSUNG-INFOLINK-NNAVI" 			style="opacity:0;width:0;height:0;" ></object>
+		<object		id="pluginTVMW" 			border="0"		classid="clsid:SAMSUNG-INFOLINK-TVMW" 			style="opacity:0;width:0;height:0;" ></object>
+		<object		id="pluginFILESYSTEM" 		border="0"		classid="clsid:SAMSUNG-INFOLINK-FILESYSTEM" 	style="opacity:0;width:0;height:0;" ></object>
+		<object		id="pluginSCREEN" 			border="0"		classid="clsid:SAMSUNG-INFOLINK-SCREEN" 		style="opacity:0;width:0;height:0;" ></object>
+		<object		id="pluginTIME" 			border="0"		classid="clsid:SAMSUNG-INFOLINK-TIME" 			style="opacity:0;width:0;height:0;" ></object>
+		<object		id="pluginFRONTPANEL" 		border="0"		classid="clsid:SAMSUNG-INFOLINK-FRONTPANEL" 	style="opacity:0;width:0;height:0;" ></object>
+		<object		id="pluginNETWORK" 			border="0"		classid="clsid:SAMSUNG-INFOLINK-NETWORK" 		style="opacity:0;width:0;height:0;" ></object>
+		<object		id="pluginObjectNNavi"		border="0"		classid="clsid:SAMSUNG-INFOLINK-NNAVI"			style="opacity:0;width:0;height:0;"	></object>
+		<object		id="pluginObjectTVMW"		border="0"		classid="clsid:SAMSUNG-INFOLINK-TVMW"			style="opacity:0;width:0;height:0;"	></object>
+		
+		<style>
+			*{padding:0;margin:0;border:0;width:960px;height:540px;}
+			#MainFrame{position:absolute;width:960px;height:540px;top:0;left:0;}
+			#xFrame{position:absolute;top:0;left:0;}
+		</style>
+	</head>
+	<body onload="Main.onLoad();" onunload="Main.onUnload();" onkeydown="Main.Key(event);">
+		<a href="javascript:void(0);" id="anchor"></a>
+		<div id="MainFrame"></div>
+    </body>
+</html>
